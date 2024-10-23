@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ pagetitle }}</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    {% if custom_css %}
+   <link rel="stylesheet" href="{{ url_for('static',filename='css/'+custom_css+'.css') }}">
+    {% endif %}
+    <link rel="icon" href="{{url_for('static',filename='imgs/rocket-pool-eth-reth-logo.svg')}}">
+</head>
+
+<body>
+    
+    {% block body %}
+
+    
+    {% endblock %}
+
+    <script src="{{url_for('static',filename='js/jquery-3.7.1.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+</body>
+
+</html>

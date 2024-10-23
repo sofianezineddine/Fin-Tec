@@ -1,0 +1,31 @@
+.skill-box {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    width: 450px;
+}
+
+
+.skill-box .skill-name {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-box .skill-prog {
+    background-color: #F7F7F7;
+    padding: 10px;
+    position: relative;
+
+}
+
+.skill-box .skill-prog span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 200, 255);
+}

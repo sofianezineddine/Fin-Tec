@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+
+header {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.icon h1{
+    font-size: 25px;
+    color: #ffa76e;
+    font-weight: bold;
+    margin: 0;
+}
+

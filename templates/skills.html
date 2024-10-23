@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% block body %}
+<h1 class="page-head">{{ pageHead }}</h1>
+<p class="page-desc">{{ desc }}</p>
+{% for skill in skills %}
+<div class="skill-box">
+    <div class="skill-name">
+        {{ skill[0] }}
+    </div>
+    <div class="skill-prog">
+       <span data-width="{{ skill[1] }}%"></span>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
